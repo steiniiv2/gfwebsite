@@ -36,6 +36,15 @@ body {
     margin-top: 20px;
     margin-bottom: 0px;
 }
+.text1 {
+    font-family: 'Comic Sans MS';
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(202, 81, 72);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 
 .buttons {
     display: flex;
