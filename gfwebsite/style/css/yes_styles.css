@@ -21,20 +21,20 @@ body {
 }
 
 .header_text {
-    font-family: 'Nunito';
+    font-family: 'Comic Sans MS';
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: rgb(128, 11, 171);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
 }
 
 .text {
-    font-family: 'Nunito';
+    font-family: 'Comic Sans MS';
     font-size: 25px;
     font-weight: bold;
-    color: white;
+    color: rgb(128, 11, 171);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -52,7 +52,7 @@ body {
 
 .btn {
     background-color: #FFB6C1;
-    color: white;
+    color: rgb(128, 11, 171);
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
