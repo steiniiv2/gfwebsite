@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8C8DC;
+}
+
+#noButton {
+    position: absolute;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 250px;
+}
+
+#vielleichtButton {
+    position: absolute;
+    margin-left: 205px;
+}
+
+.header_text {
+    font-family: 'Comic Sans MS';
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(128, 11, 171);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    font-family: 'Comic Sans MS';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    font-family: 'Comic Sans MS';
+    background-color: #ffffff;
+    color: rgb(128, 11, 171);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #b28e20;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
