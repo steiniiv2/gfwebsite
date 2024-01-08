@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="./style/css/styles.css">
+        <meta name="viewport" content="width=device-width">
     </head> 
     <body>
         <div class="container">
@@ -15,6 +16,8 @@
                 <button class="btn" id = "yesButton" onclick="nextPage1()">Ja</button>
                 <button class="btn" id="noButton" onmouseover="moveButton()">Nein</button>
                 <button class="btn" id="vielleichtButton" onclick="nextPage2()">Vielleicht</button>
+                <secret class="btn" id="secret" ondblclick="nextPage3()">secret</secret>
+
                 <script>
                     function nextPage1() {
                         window.location.href = "yes.html";
@@ -27,6 +30,11 @@
                         var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
                         document.getElementById('noButton').style.left = `${x}px`;
                         document.getElementById('noButton').style.top = `${y}px`;
+                    }
+
+                    function nextPage3() {
+                        window.location.href = "secret.html";
+                        
                     }
                 </script> 
             </div>

@@ -22,6 +22,12 @@ body {
     margin-left: 205px;
 }
 
+#secret {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 900px;
+}
+
 .header_text {
     font-family: 'Comic Sans MS';
     font-size: 50px;
